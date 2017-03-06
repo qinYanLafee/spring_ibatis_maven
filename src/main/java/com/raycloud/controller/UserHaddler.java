@@ -22,7 +22,7 @@ import java.util.Map;
 public class UserHaddler {
     @Autowired
     UserServiceImp userServiceImp;
-
+/*路径配置出问题*/
     @RequestMapping(value ="list", method=RequestMethod.GET )
     public String queryByname(Map<String,Object> map){
        User user =userServiceImp.queryById(3);

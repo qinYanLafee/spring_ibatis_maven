@@ -11,7 +11,7 @@
     <title></title>
 </head>
 <body>
-request:${requestScope.user}   <br/>
+request:${requestScope.user}  <br/>
 session:${sessionScope.user}
 </body>
 </html>
