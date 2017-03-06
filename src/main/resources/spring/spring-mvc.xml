@@ -90,6 +90,13 @@
         </property>
     </bean>
 
+    <bean  class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!-- 页面的物理路径 -->
+        <property name="prefix" value="/"></property>
+        <!-- 扩展名 -->
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+
 </beans>
 
 

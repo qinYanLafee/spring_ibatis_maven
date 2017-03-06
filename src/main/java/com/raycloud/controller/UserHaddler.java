@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.servlet.ModelAndView;
 import sun.awt.SunHints;
 
 import java.lang.Object;
@@ -21,9 +22,10 @@ import java.util.Map;
 public class UserHaddler {
     @Autowired
     UserServiceImp userServiceImp;
+
     @RequestMapping(value ="list", method=RequestMethod.GET )
     public String queryByname(Map<String,Object> map){
-        User user =userServiceImp.queryById(1);
+       User user =userServiceImp.queryById(3);
         map.put("user",user);
         return "list";
     }
