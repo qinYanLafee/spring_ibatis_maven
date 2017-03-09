@@ -29,4 +29,9 @@ public class UserHaddler {
         map.put("user",user);
         return "list";
     }
+    @RequestMapping(value="reg",method = RequestMethod.POST)
+    public  String reg(User user,Map<String,Object> map){
+        System.out.print(user);
+        return "success";
+    }
 }

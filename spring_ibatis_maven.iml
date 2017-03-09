@@ -64,6 +64,8 @@
     <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.8.3" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.6.12" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.6.11" level="project" />
+    <orderEntry type="library" name="taobao-sdk-java-auto_1488782880582-20170306-source" level="project" />
+    <orderEntry type="library" name="taobao-sdk-java-auto_1488782880582-20170306" level="project" />
   </component>
 </module>
 
