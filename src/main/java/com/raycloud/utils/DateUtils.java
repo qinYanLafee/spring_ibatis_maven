@@ -18,7 +18,7 @@ public class DateUtils {
 		}
 		return d;
 	}
-    /*测试*/
+    /*测试1*/
 	//将日期类转换成字符串
 	public static String dateToString(String format,Date date) {
 		DateFormat df = new SimpleDateFormat(format);
